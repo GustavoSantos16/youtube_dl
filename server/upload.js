@@ -12,7 +12,7 @@ const uploadYT = require('upload-youtube');
             title: "Example Title",
             description: "Example Description",
             keywords: ["keywords1", "keywords2"],
-            // playlist: "Playlist Name",
+            playlist: "Playlist Name",
         }
     )
     console.log(`Upload success: https://youtu.be/${ytID}`)
